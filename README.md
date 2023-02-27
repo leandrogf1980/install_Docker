@@ -16,7 +16,7 @@
 
 **`curl -fsSL https://download.docker.com/linux/${ID}/gpg | sudo apt-key add -`**
 
-5- Adicionando o repositório em si à lista de origens de pacotes.
+5- Adicionando o repositório em si à lista de origens de pacotes **(o comando abaixo é apenas uma linha)**.
 
 **`echo "deb [arch=amd64] https://download.docker.com/linux/${ID} ${VERSION_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/docker.list`**
 
@@ -28,7 +28,7 @@
 
 **`sudo apt install docker-ce docker-ce-cli containerd.io`**
 
-8- Baixando o binário do Docker Compose diretamente do GitHub.
+8- Baixando o binário do Docker Compose diretamente do GitHub **(o comando abaixo é apenas uma linha)**.
 
 **`sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`**
 
