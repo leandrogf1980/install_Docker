@@ -20,11 +20,11 @@
 
 **`echo "deb [arch=amd64] https://download.docker.com/linux/${ID} ${VERSION_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/docker.list`**
 
-6- Buscando a lista de pacotes deste novo repositório adicionado
+6- Buscando a lista de pacotes deste novo repositório adicionado.
 
 **`sudo apt update`**
 
-7- Instalando os pacotes do Docker Engine
+7- Instalando os pacotes do Docker Engine.
 
 **`sudo apt install docker-ce docker-ce-cli containerd.io`**
 
